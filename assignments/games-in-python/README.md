@@ -1,19 +1,45 @@
+# 📘 Assignment: Hangman Game
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objective
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+Build a classic Hangman word-guessing game in Python. This assignment will help you practice string manipulation, loops, conditionals, and user input while creating a fun and interactive game.
 
-## � What You'll Build
+## 📝 Tasks
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+### 🛠️ Task 1: Set Up the Game
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+#### Description
+Create the basic structure for your Hangman game. Define a list of possible words and set up variables to track the game state.
 
-## ✅ Must Have's
+#### Requirements
+Completed program should:
+- Define a list of at least 5 possible words
+- Randomly select a word for the player to guess
+- Initialize variables to track guessed letters and remaining attempts
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+### 🛠️ Task 2: Handle Player Guesses
+
+#### Description
+Write the main game loop that allows the player to guess letters, updates the display, and tracks incorrect guesses.
+
+#### Requirements
+Completed program should:
+- Prompt the player to guess a letter each turn
+- Show the current progress (e.g., _ a _ _ m a n)
+- Track and display the number of incorrect guesses remaining
+- Prevent repeated guesses from counting against the player
+
+### 🛠️ Task 3: End the Game and Display Results
+
+#### Description
+Finish your game by checking for win/lose conditions and displaying an appropriate message.
+
+#### Requirements
+Completed program should:
+- End the game when the word is fully guessed or attempts run out
+- Display a congratulatory message if the player wins
+- Display an encouraging message if the player loses, revealing the correct word
+
+---
+
+Keep your code organized and add comments to explain your logic. Have fun, and good luck!
